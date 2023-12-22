@@ -30,7 +30,8 @@ public class AppConfig {
             cfg.setAllowedOrigins(Arrays.asList(
                     "http://localhost:3000",
                     "http://localhost:4200",
-                    "https://huynhduong-ecommerce.vercel.app"));
+                    "https://huynhduong-ecommerce.vercel.app",
+                    "https://ecommerce-server-production-c58b.up.railway.app"));
             cfg.setAllowedMethods(Collections.singletonList("*"));
             cfg.setAllowCredentials(true);
             cfg.setAllowedHeaders(Collections.singletonList("*"));
